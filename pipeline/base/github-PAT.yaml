@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: git-credentials
+type: kubernetes.io/basic-auth
+stringData:
+  username: 13yo
+  password: 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
